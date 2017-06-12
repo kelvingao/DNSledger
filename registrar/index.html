@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>registrar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main>
+    <h1>Registrar</h1>
+
+    <form name="registrar">
+      <div class="textbox">
+        <input
+          type="text"
+          required
+          name="domain-name"/>
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>domain name</label>
+      </div>
+
+    <div class="textbox">
+      <input
+        type="text"
+        required
+        name="ip-address"/>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label>ip address</label>
+    </div>
+  
+    <button>submit</button>
+    </form>
+
+    <div class="content">
+      <ul class="domain-list"></ul>
+    </div>
+  </main>
+<script src="app.js"></script>
+</body>
+</html>
